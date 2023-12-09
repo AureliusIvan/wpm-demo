@@ -71,7 +71,6 @@ export default function Home() {
                                     type="range"
                                     min="1"
                                     max="5"
-
                                     value={sliderValues[`slider${index + 1}`]}
                                     onChange={(e) =>
                                         handleSliderChange(`slider${index + 1}`, parseInt(e.target.value))
@@ -81,8 +80,9 @@ export default function Home() {
 
                                     list={`tickmarks-${index + 1}`}
                                     className="w-full h-5 bg-gray-300 rounded-lg appearance-none
-                            focus:outline-none focus:shadow-outline"
-                                // className="w-full h-2 bg-gray-300 rounded-lg appearance-none"
+                                    focus:outline-none focus:shadow-outline
+                                    cursor-pointer
+                                    "
                                 />
                             </div>
                         ))}
