@@ -15,14 +15,14 @@ export default function Guest({ children }: PropsWithChildren) {
             </div> */}
             <nav
                 //reverse flex direction
-                className='w-full bg-slate-900 px-[2rem] py-[1rem] flex flex-col-reverse gap-4 fixed top-0 left-0 z-10 items-end'
+                className='w-full bg-slate-900 px-[2rem] py-[1rem] flex flex-col-reverse gap-4 fixed top-0 left-0 z-10 items-end h-[6rem]'
             >
-                <Link
+                {/* <Link
                     href={"/login"}
                     className='w-fit bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-700'
                 >
                     Login
-                </Link>
+                </Link> */}
             </nav>
 
 

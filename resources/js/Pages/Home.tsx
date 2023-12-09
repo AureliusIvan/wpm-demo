@@ -39,15 +39,15 @@ export default function Home() {
 
     return (
         <Guest>
-            <div className="container bg-slate-700 py-[4rem] flex justify-center flex-col gap-4 scroll-smooth">
+            <div className="container bg-slate-700 py-[1.5rem] flex-col gap-4 scroll-smooth min-h-screen">
                 <div
-                    className='w-full flex flex-col justify-center items-center'
+                    className='w-full flex flex-col justify-center items-center p-[1rem] md:p-[1rem]'
                 >
                     <h1
-                        className='text-3xl font-semibold mb-4 w-full text-center text-white'
+                        className='text-[1.5rem] md:text-[2rem] font-semibold mb-4 w-full text-center text-white my-[1rem]'
                     >
 
-                        Sistem Rekomendasi Parfum menggunakan Metode Weighted Product Model
+                        Sistem Rekomendasi Parfum Pria menggunakan Metode Weighted Product Model
                     </h1>
                     <form
                         onSubmit={handleSubmit}
